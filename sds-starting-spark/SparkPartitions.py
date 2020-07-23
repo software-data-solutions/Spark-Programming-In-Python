@@ -11,7 +11,7 @@ if __name__ == "__main__":
     logger = Log4j(spark)
 
     if len(sys.argv) != 2:
-        logger.error("Usaage: HelloSpark: <filename>")
+        logger.error("Usaage: sds-starting-spark: <filename>")
         sys.exit(-1)
 
     survey_df = load_survey_df(spark, sys.argv[1])
@@ -23,4 +23,4 @@ if __name__ == "__main__":
 
     input("Press Enter")
 
-    logger.info("Finished HelloSpark")
+    logger.info("Finished sds-starting-spark")
