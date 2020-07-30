@@ -1,3 +1,8 @@
+# Execute on environment
+#pip install pypandoc
+#pip install pyspark==2.4.5
+
+
 from pyspark.sql import *
 
 from lib.logger import Log4j
