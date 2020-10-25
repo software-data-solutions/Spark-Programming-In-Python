@@ -2,6 +2,7 @@ import sys
 
 from pyspark import SparkConf
 from collections import namedtuple
+
 from pyspark.sql import SparkSession
 
 from lib.logger import Log4j
